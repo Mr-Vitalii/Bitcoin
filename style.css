@@ -1,0 +1,76 @@
+
+
+body {
+  background-image: url(./images/bitcoinimage.jpg);
+  background-size: cover;
+
+}
+
+.calculate_Bitcoin {
+  margin: 50px auto;
+  width: 300px; 
+  height: 500px;
+  border: 1px solid #000;
+  background-color: rgb(254, 255, 170);
+  padding: 18px;
+  text-align: center
+}
+
+.window_1 {
+  text-align: center
+}
+
+.window_2 {
+  text-align: center
+}
+
+.button {
+  margin: 85px auto;
+}
+
+.result {
+  width: 180px; 
+  height: 30px;
+  border: 1px solid #000;
+  background-color: rgb(255, 255, 255);
+  margin: 20px auto;
+  text-align: center;
+  line-height: 30px;
+}
+
+.calculate {
+  width: 100px; 
+  height: 60px;
+  background-color: rgb(109, 199, 252);
+  text-align: center;
+  line-height: 60px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.calculate:hover {
+  filter: brightness(120%)
+}
+
+.calculate:active {
+  filter: brightness(80%)
+}
+
+.clear {
+  width: 100px; 
+  height: 60px;
+  background-color: rgb(252, 161, 109);
+  text-align: center;
+  line-height: 60px;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+}
+
+.clear:hover {
+  filter: brightness(120%)
+}
+
+.clear:active {
+  filter: brightness(80%)
+}
